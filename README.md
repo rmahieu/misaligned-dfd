@@ -8,6 +8,10 @@ capable of compensating for such issues. Relative depth results are computed qui
 shortcomings around depth edges as discussed in Section VII. The final computed depth map is also shown to
 be sufficient for rendering visually pleasing synthetically refocused photos of the scene.
 
+## Writeup
+* [Final report](http://robertmahieu.com/docs/mahieu_ee367_final_report.pdf)
+* [Poster](http://robertmahieu.com/docs/mahieu_ee367_final_poster.pdf)
+
 ## Instructions
 To run the algorithm, simply run the script 'main.m' in MATLAB. This will produce results within a folder called 'results' which will be created in the execution directory. To edit the photo set used by the algorithm, change the code in the top section of 'main.m' to reflect the appropriate path and number of images.
 
@@ -18,7 +22,3 @@ The code requires three external packages for performing:
 * Solving graph cuts ([GCoptimization v3.0](http://vision.csd.uwo.ca/code/))
 
 These are all included in the 'dependencies' folder. The folders for each of these contain pre-built mex files that should run fine on Windows x64, but I've included the original package downloads just in case something goes wrong.
-
-## Writeup
-* [Final report](http://robertmahieu.com/docs/mahieu_ee367_final_report.pdf)
-* [Poster](http://robertmahieu.com/docs/mahieu_ee367_final_poster.pdf)
